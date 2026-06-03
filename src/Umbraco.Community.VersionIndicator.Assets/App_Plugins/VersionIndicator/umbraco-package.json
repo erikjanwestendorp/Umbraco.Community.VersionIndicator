@@ -1,6 +1,0 @@
-{
-  "$schema": "../../umbraco-package-schema.json",
-  "name": "Umbraco.Community.VersionIndicator",
-  "version": "0.1.0",
-  "extensions": []
-}

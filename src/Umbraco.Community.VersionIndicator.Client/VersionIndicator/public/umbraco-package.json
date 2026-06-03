@@ -1,0 +1,12 @@
+{
+  "name": "Version Indicator",
+  "version": "1.0.0",
+  "extensions": [
+    {
+      "name": "Version Indicator Bundle",
+      "alias": "Umb.Community.VersionIndicator.Bundle",
+      "type": "bundle",
+      "js": "/App_Plugins/VersionIndicator/version-indicator.js"
+    }
+  ]
+}
