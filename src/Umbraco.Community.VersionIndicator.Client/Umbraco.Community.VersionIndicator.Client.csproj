@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Umbraco.Community.VersionIndicator.Client</PackageId>
+    <Description>Client source for Umbraco.Community.VersionIndicator.</Description>
+    <Authors>erikjanwestendorp</Authors>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="package.json" Pack="false" />
+    <None Include="src\**\*" Pack="false" />
+  </ItemGroup>
+
+</Project>
