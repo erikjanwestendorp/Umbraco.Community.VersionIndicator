@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Umbraco.Community.VersionIndicator.Assets</PackageId>
+    <Description>Assets for Umbraco.Community.VersionIndicator.</Description>
+    <Authors>erikjanwestendorp</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="App_Plugins\**\*" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+{
+  "name": "@umbraco-community/version-indicator",
+  "version": "0.1.0",
+  "description": "A community package that displays the Umbraco version in the backoffice.",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
