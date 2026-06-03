@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11312.151 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco.Community.VersionIndicator", "src\Umbraco.Community.VersionIndicator\Umbraco.Community.VersionIndicator.csproj", "{8C79E4DA-D585-4DCE-8F7B-B1D29F90938F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco.Community.VersionIndicator.Assets", "src\Umbraco.Community.VersionIndicator.Assets\Umbraco.Community.VersionIndicator.Assets.csproj", "{9602585A-5A8C-4B16-9D35-6EF124B57666}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco.Community.VersionIndicator.Client", "src\Umbraco.Community.VersionIndicator.Client\Umbraco.Community.VersionIndicator.Client.csproj", "{7647CB4A-F888-4C60-9E34-D20119DBCF16}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{B36A84DF-456D-A817-6EDD-3EC3E7F6E11F}"
 EndProject
@@ -53,18 +51,6 @@ Global
 		{9602585A-5A8C-4B16-9D35-6EF124B57666}.Release|x64.Build.0 = Release|Any CPU
 		{9602585A-5A8C-4B16-9D35-6EF124B57666}.Release|x86.ActiveCfg = Release|Any CPU
 		{9602585A-5A8C-4B16-9D35-6EF124B57666}.Release|x86.Build.0 = Release|Any CPU
-		{7647CB4A-F888-4C60-9E34-D20119DBCF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7647CB4A-F888-4C60-9E34-D20119DBCF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7647CB4A-F888-4C60-9E34-D20119DBCF16}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{7647CB4A-F888-4C60-9E34-D20119DBCF16}.Debug|x64.Build.0 = Debug|Any CPU
-		{7647CB4A-F888-4C60-9E34-D20119DBCF16}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{7647CB4A-F888-4C60-9E34-D20119DBCF16}.Debug|x86.Build.0 = Debug|Any CPU
-		{7647CB4A-F888-4C60-9E34-D20119DBCF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7647CB4A-F888-4C60-9E34-D20119DBCF16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7647CB4A-F888-4C60-9E34-D20119DBCF16}.Release|x64.ActiveCfg = Release|Any CPU
-		{7647CB4A-F888-4C60-9E34-D20119DBCF16}.Release|x64.Build.0 = Release|Any CPU
-		{7647CB4A-F888-4C60-9E34-D20119DBCF16}.Release|x86.ActiveCfg = Release|Any CPU
-		{7647CB4A-F888-4C60-9E34-D20119DBCF16}.Release|x86.Build.0 = Release|Any CPU
 		{98DD8BE2-D5EB-4EBD-8761-CDE8C0352492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{98DD8BE2-D5EB-4EBD-8761-CDE8C0352492}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98DD8BE2-D5EB-4EBD-8761-CDE8C0352492}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -96,8 +82,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8C79E4DA-D585-4DCE-8F7B-B1D29F90938F} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{9602585A-5A8C-4B16-9D35-6EF124B57666} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
-		{7647CB4A-F888-4C60-9E34-D20119DBCF16} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{98DD8BE2-D5EB-4EBD-8761-CDE8C0352492} = {B36A84DF-456D-A817-6EDD-3EC3E7F6E11F}
 		{EB570F40-F036-4CD1-89A5-32F956F63CB7} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5550224C-97F2-4652-8912-18DF2C4926C7}
 	EndGlobalSection
 EndGlobal
