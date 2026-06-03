@@ -4,6 +4,21 @@
 
 When working on .NET (Umbraco) projects in this repository, always follow these conventions to ensure consistency, maintainability, and centralized configuration.
 
+IMPORTANT:
+
+Before creating new projects, solutions, examples, tests or package repositories,
+read [PACKAGE_STRUCTURE.md](../PACKAGE_STRUCTURE.md)
+
+PACKAGE_STRUCTURE.md is the source of truth for:
+
+- Repository structure
+- Solution structure
+- Project naming
+- Namespace naming
+- Package naming
+- Example site naming
+- Folder conventions
+
 ---
 
 ### 1. Project Structure
