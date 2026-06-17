@@ -36,5 +36,11 @@ jobs:
       - name: Pack VersionIndicator.Assets
         run: dotnet pack ./src/Umbraco.Community.VersionIndicator.Assets/Umbraco.Community.VersionIndicator.Assets.csproj --configuration Release --no-build --output ./nupkg
       
+      - name: NuGet login
+        uses: NuGet/login@v1
+        id: login
+        with:
+          user: ${{ secrets.NUGET_USER }}
+
       - name: Push all .nupkg files to NuGet
-        run: dotnet nuget push ./nupkg/*.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_API_KEY }} --skip-duplicate
+        run: dotnet nuget push ./nupkg/*.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ steps.login.outputs.NUGET_API_KEY }} --skip-duplicate
